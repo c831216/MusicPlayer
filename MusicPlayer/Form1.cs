@@ -75,7 +75,7 @@ namespace MusicPlayer
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Player.settings.volume = (Player.settings.volume - 10);
+            Player.settings.volume = Player.settings.volume - 10;
         }
     }
 }
